@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nadam/Downloads/open_source/Nextjs/day2/lab/lab2_next/src/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    <main className=\"min-h-screen bg-gradient-to-br from-white to-gray-100 px-6 py-20 flex flex-col items-center justify-center text-center\">\n      <h1 className=\"text-5xl font-extrabold text-gray-800 mb-4\">\n        Welcome to <span className=\"text-blue-600\">News!</span>\n      </h1>\n      <p className=\"text-xl text-gray-600 mb-8\">\n        This is a simple News website.\n      </p>\n      <Image\n        src=\"/bootique.png\"\n        alt=\"Next.js Logo\"\n        width={220}\n        height={220}\n        className=\"rounded-xl shadow-lg hover:scale-105 transition-transform duration-300\"\n      />\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;;0BACd,8OAAC;gBAAG,WAAU;;oBAA6C;kCAC9C,8OAAC;wBAAK,WAAU;kCAAgB;;;;;;;;;;;;0BAE7C,8OAAC;gBAAE,WAAU;0BAA6B;;;;;;0BAG1C,8OAAC,6HAAA,CAAA,UAAK;gBACJ,KAAI;gBACJ,KAAI;gBACJ,OAAO;gBACP,QAAQ;gBACR,WAAU;;;;;;;;;;;;AAIlB","debugId":null}}]
+}

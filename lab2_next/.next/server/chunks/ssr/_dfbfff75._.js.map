@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nadam/Downloads/open_source/Nextjs/day2/lab/lab2/src/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    <main className=\"flex min-h-screen flex-col items-center justify-between p-24\">\n      <h1 className=\"text-4xl font-bold\">Welcome to Next.js!</h1>\n      <p className=\"mt-4 text-lg\">This is a simple Next.js application.</p>\n      <Image\n        src=\"/bootique.png\"\n        alt=\"Next.js Logo\"\n        width={200}\n        height={200}\n        className=\"mt-8\"\n      />\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;;0BACd,8OAAC;gBAAG,WAAU;0BAAqB;;;;;;0BACnC,8OAAC;gBAAE,WAAU;0BAAe;;;;;;0BAC5B,8OAAC,6HAAA,CAAA,UAAK;gBACJ,KAAI;gBACJ,KAAI;gBACJ,OAAO;gBACP,QAAQ;gBACR,WAAU;;;;;;;;;;;;AAIlB","debugId":null}}]
+}

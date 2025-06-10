@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nadam/Downloads/open_source/Nextjs/day2/lab/lab2/src/app/about-us/page.tsx"],"sourcesContent":["import Image from 'next/image';\r\n\r\nexport default function AboutUs() {\r\n  return (\r\n    <main>\r\n      <h1>About Us</h1>\r\n      <p>This website delivers latest news by category.</p>\r\n      <Image src=\"/bootique.png\" alt=\"About Image\" width={300} height={200} />\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;0BACH,8OAAC,6HAAA,CAAA,UAAK;gBAAC,KAAI;gBAAgB,KAAI;gBAAc,OAAO;gBAAK,QAAQ;;;;;;;;;;;;AAGvE","debugId":null}}]
+}

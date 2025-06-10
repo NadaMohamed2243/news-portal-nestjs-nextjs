@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nadam/Downloads/open_source/Nextjs/day2/lab/lab2_next/src/app/not-found.tsx"],"sourcesContent":["export default function NotFound() {\r\n  return (\r\n    <div className=\"flex items-center justify-center min-h-screen bg-gray-50 px-4\">\r\n      <div className=\"text-center\">\r\n        <h1 className=\"text-6xl font-extrabold text-gray-800 mb-4\">404</h1>\r\n        <h2 className=\"text-2xl font-semibold text-gray-700 mb-2\">\r\n          Page Not Found\r\n        </h2>\r\n        <p className=\"text-gray-500 mb-6\">\r\n          The category you’re looking for does not exist.\r\n        </p>\r\n        <a\r\n          href=\"/\"\r\n          className=\"inline-block px-6 py-2 bg-blue-800 text-white rounded-lg shadow hover:bg-blue-700 transition\"\r\n        >\r\n          Go Home\r\n        </a>\r\n      </div>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;;8BACb,8OAAC;oBAAG,WAAU;8BAA6C;;;;;;8BAC3D,8OAAC;oBAAG,WAAU;8BAA4C;;;;;;8BAG1D,8OAAC;oBAAE,WAAU;8BAAqB;;;;;;8BAGlC,8OAAC;oBACC,MAAK;oBACL,WAAU;8BACX;;;;;;;;;;;;;;;;;AAMT","debugId":null}}]
+}
