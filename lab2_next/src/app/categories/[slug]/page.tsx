@@ -1,5 +1,11 @@
 import { notFound, redirect } from 'next/navigation';
 
+//Using the dynamic = 'force-dynamic' or revalidate = 0 
+// route segment config options: This will skip the Full
+// Route Cache and the Data Cache. Meaning components 
+// will be rendered and data fetched on every incoming 
+// request to the server. The Router Cache will still 
+// apply as it's a client-side cache.
 export const dynamic = 'force-dynamic';
 
 type Props = {
